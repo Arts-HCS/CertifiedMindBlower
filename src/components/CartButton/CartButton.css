@@ -1,0 +1,27 @@
+.cart-button{
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    cursor: pointer;
+    border-radius: 13px;
+    position: relative;
+}
+
+.cart-button i{
+    margin-top: 0.7rem;
+    font-size: 1.4rem;
+    color: var(--deep-black);
+}
+
+.cart-button .quantity{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #19171A;
+}

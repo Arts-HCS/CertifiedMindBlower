@@ -1,0 +1,16 @@
+.profile-button{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    cursor: pointer;
+    position: relative;
+}
+
+.profile-button i{
+    font-size: 1.4rem;
+    color: var(--deep-black);
+}

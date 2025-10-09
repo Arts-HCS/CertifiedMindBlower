@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "AgrandirG";
+    src: url("./assets/fonts/Agrandir-GrandHeavy.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TAN";
+    src: url("./assets/fonts/Tan-font.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root{
+    --deep-black: #19171A;
+    --white: #F3EEE2;
+    --gray: #6A6664;
+    --transition: all 0.3s ease 0s;
+    --agrandir: 'AgrandirG';
+    --tan: 'TAN';
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--deep-black);
+}
+
+input, button, textarea, select{
+    font: inherit;
+    border: none;
+    background: none;
+    color: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+a{
+    font: inherit;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+ul{
+    list-style: none;
+}
