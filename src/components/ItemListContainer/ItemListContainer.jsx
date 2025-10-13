@@ -36,7 +36,7 @@ const ItemListContainer = () => {
 
   return (
     <>
-      {categoria || <Hero></Hero>}
+      {categoria ? <></> : <Hero></Hero>}
       <section className='main_container-section'>
           <div className="options">
               <Link to='/' className='option-button lit'>All</Link>

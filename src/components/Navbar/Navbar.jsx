@@ -41,7 +41,7 @@ const Navbar = () => {
               <Link to='/' className='link'>Shop Now</Link>
             </li>
         </ul>
-        <Link to='/' className='logo'>
+        <Link id='logo' to='/' className='logo'>
           <img className='logo-img' src={logo} alt="Logo" />
         </Link>
 

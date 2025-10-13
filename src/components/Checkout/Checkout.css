@@ -1,0 +1,111 @@
+.checkout-section{
+    width: 100%;
+    padding: 2rem;
+    min-height: 90vh;
+    background: linear-gradient(210deg, var(--deep-black) 30%, var(--white) 10%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 8rem;
+    position: relative;
+}
+
+.checkout-section .section-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: var(--agrandir);
+    color: var(--deep-black);
+}
+
+.checkout-section .checkout-forms{
+    width: 40%;
+    height: fit-content;
+    padding: 1.4rem;
+    background-color: var(--deep-black);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;   
+    border-radius: 5px; 
+    box-shadow: 2px 4px 10px var(--gray);
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.checkout-forms label{
+    color: var(--white);
+    margin-bottom: 0.42rem;
+    font-size: 1.2rem;
+}
+
+.checkout-forms input, textarea{
+    width: 100%;
+    border: 1px solid var(--white);
+    padding: 0.88rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    color: var(--white);
+    transition: var(--transition);
+    resize: none;
+}
+
+.checkout-forms input:focus, textarea:focus{
+    background-color: var(--white);
+    color: var(--deep-black);
+}
+
+.checkout-forms .submit-checkout{
+    width: 100%;
+    background-color: var(--deep-black);
+    color: var(--white);
+    font-size: 1.3rem;
+    border-radius: 8px;
+    padding: 0.8rem;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    cursor: pointer;
+    z-index: -1;
+    bottom: 0px;
+    left: 0;
+}
+
+.submit-checkout:hover{
+    background-color: var(--white);
+    color: var(--deep-black);
+    outline: 1.5px solid var(--deep-black);
+    box-shadow: 0 0 10px #00000092;
+}
+
+.submit-checkout.allowed{
+    bottom: -70px;
+    z-index: 1;
+}
+
+.logo.finished{
+    animation: giroYacercamiento 3s ease forwards;
+    transform-origin: center;
+    cursor: default;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+@keyframes giroYacercamiento {
+    0% {
+      transform: rotate(0deg) scale(1) translateX(0);
+    }
+    60% {
+      transform: rotate(480deg) scale(40) translateX(0); /* solo gira */
+    }
+    100% {
+      transform: rotate(480deg) scale(140) translateX(10%);
+    }
+  }
+.logo.finished:hover{
+    transform: translateX(1200%) scale(90) rotate(360deg) !important;
+}

@@ -1,7 +1,6 @@
 .main_container-section{
     width: 100%;
-    height: fit-content;
-    background-color: var(--gray);
+    background-color: var(--deep-black);
 }
 
 .main_container-section .options{

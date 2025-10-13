@@ -24,7 +24,7 @@ const ItemDetailsContainer = () => {
     }, [idItem])
 
   return (
-    <section className='details_section'>
+    <section className="details_section">
         <ItemDetails productos={{...producto}} ></ItemDetails>
     </section>
   )

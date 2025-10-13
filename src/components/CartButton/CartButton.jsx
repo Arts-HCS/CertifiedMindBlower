@@ -1,12 +1,17 @@
-import React from 'react'
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { Context } from "../../context/Contexto";
 import './CartButton.css'
 
 const CartButton = () => {
+
+  const { cantidadTotal } = useContext(Context);
+
   return (
-    <div className='cart-button'>
+    <Link to='/cart' className='cart-button'>
       <i className="fa-solid fa-cart-shopping"></i>
-      <p className='quantity'>0</p>
-    </div>
+      <p className='quantity'>{cantidadTotal}</p>
+    </Link>
   )
 }
 

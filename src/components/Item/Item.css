@@ -27,6 +27,7 @@
 
 .product-box .product-data{
     padding: 1rem 0.5rem;
+    padding-bottom: 0.5rem;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -42,4 +43,5 @@
     font-size: 1rem;
     font-family: 'AgrandirG';
     color: var(--white);
+    margin-bottom: 0;
 }
