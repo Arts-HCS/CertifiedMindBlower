@@ -1,16 +1,65 @@
-# React + Vite
+# Certified Mind Blower  
+Modern Youth Clothing Store | React, HTML, CSS, JavaScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description  
+**Certified Mind Blower** is a modern online clothing store designed for young people who seek a bold and unique style.  
+Built with **React**, this project combines a clean interface, smooth animations, and a visually striking design inspired by urban and psychedelic aesthetics.  
 
-Currently, two official plugins are available:
+The goal was to create a **seamless and memorable shopping experience**, focusing on both functionality and brand identity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Technologies Used  
+- React – Frontend structure and components  
+- CSS3 – Custom styling and animations  
+- HTML5 – Semantic layout  
+- JavaScript (ES6+) – Interactive logic  
+- Firebase / Firestore – Database and product management  
+- React Router DOM – Navigation system  
+- Vite or Create React App – Development and build environment  
+- React Toastify – Notification handling  
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Main Features  
+- Dynamic product catalog loaded from Firestore  
+- Functional shopping cart (add, remove, update items)  
+- Checkout form with validation and order registration  
+- Minimal and bold visual design  
+- Smooth animations and dark theme  
+- Fully responsive across devices  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Preview  
+
+![App Preview](<img width="1470" height="796" alt="Screenshot 2025-10-13 at 0 13 10" src="https://github.com/user-attachments/assets/bbac35d0-d467-4da6-9a12-13d6721f9352" />
+)
+
+---
+
+## Installation and Setup  
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/Arts-HCS/CertifiedMindBlower.git
+
+2. Navigate into the project:
+   ```bash
+   cd CertifiedMindBlower
+
+3. Install dependencies:
+   ```bash
+   npm install
+
+4. Start the development server:
+   ```bash
+   npm run dev
+
+5. Open your browser and visit:
+   ```bash
+   http://localhost:5173
+
+## Live Webpage  
+
+https://certified-mind-blower-9v7sbc7pq-arturos-projects-f7172d6e.vercel.app/
