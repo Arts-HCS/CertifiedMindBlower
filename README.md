@@ -33,8 +33,7 @@ The goal was to create a **seamless and memorable shopping experience**, focusin
 
 ## Preview  
 
-![App Preview](<img width="1470" height="796" alt="Screenshot 2025-10-13 at 0 13 10" src="https://github.com/user-attachments/assets/bbac35d0-d467-4da6-9a12-13d6721f9352" />
-)
+<img width="1470" height="796" alt="Screenshot 2025-10-13 at 0 13 10" src="https://github.com/user-attachments/assets/bbac35d0-d467-4da6-9a12-13d6721f9352"/>
 
 ---
 
