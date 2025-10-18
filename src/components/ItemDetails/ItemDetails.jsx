@@ -79,9 +79,9 @@ const ItemDetails = ({ productos }) => {
             {!added ? (
               <>
                 <div className="quantity-buttons">
-                  <button onClick={aumentar} className='add-btn'>+</button>
+                  <button onClick={disminuir} className='add-btn'>-</button>
                   <input value={cantidad} readOnly className='quantity-value' />
-                  <button onClick={disminuir} className='remove-btn'>-</button>
+                  <button onClick={aumentar} className='remove-btn'>+</button>
                 </div>
                 <button onClick={manejarAgregar} className='cart-btn'>
                   <span className='btn-text'>Add to cart</span>
