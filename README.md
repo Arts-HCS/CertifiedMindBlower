@@ -61,5 +61,5 @@ The goal was to create a **seamless and memorable shopping experience**, focusin
 
 ## Live Webpage  
 
-https://certified-mind-blower-ogjjdba2f-arturos-projects-f7172d6e.vercel.app/
+https://certified-mind-blower.vercel.app/
 
